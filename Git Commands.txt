@@ -20,4 +20,6 @@ To ignore a file for tracking, first create a ".gitignore" file and then add the
 also
 To ignore a specific extension files: add *.extension to the .gitignore file to ignore all the files having a specific extension
 
+To ignore the contents of a directory (folder): add '<directory_name>/' to the .gitignore file
+
 To clean / delete the git repository: rm -rf .git
