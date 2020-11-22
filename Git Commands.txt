@@ -21,5 +21,9 @@ also
 To ignore a specific extension files: add *.extension to the .gitignore file to ignore all the files having a specific extension
 
 To ignore the contents of a directory (folder): add '<directory_name>/' to the .gitignore file
+Note: The above command will ignore all the folders with the given name
+
+To ignore the content of the outer directory: add '/<directory_name>/' to the .gitignore file
+Note: The above command will ignore only the outer directory with this name
 
 To clean / delete the git repository: rm -rf .git
