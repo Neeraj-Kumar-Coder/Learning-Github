@@ -1,0 +1,6 @@
+To check status: git status
+To add all files to staging area: git add .
+To add a specific file to staging area: git add <name.extension>
+To commit: git commit -m "<message>"
+To check all the things happened in the git repository: git log
+To clean / delete the git repository: rm -rf .git
