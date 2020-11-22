@@ -1,7 +1,21 @@
+To make the current directory a git repository: git init
+
 To check status: git status
+
 To add all files to staging area: git add .
+or
+To add all files to staging area: git add --a
+
+To create a new file: touch <name.extension>
+
 To add a specific file to staging area: git add <name.extension>
+
 To commit: git commit -m "<message>"
+
 To check all the things happened in the git repository: git log
+
 To clone a git repository from web: git clone <link> <(optional) enter the name you want to give>
+
+To ignore a file for tracking, first create a ".gitignore" file and then add the name(with extension) of the file to be ignored in the gitignore file: touch .gitignore
+
 To clean / delete the git repository: rm -rf .git
