@@ -17,5 +17,7 @@ To check all the things happened in the git repository: git log
 To clone a git repository from web: git clone <link> <(optional) enter the name you want to give>
 
 To ignore a file for tracking, first create a ".gitignore" file and then add the name(with extension) of the file to be ignored in the gitignore file: touch .gitignore
+also
+To ignore a specific extension files: add *.extension to the .gitignore file to ignore all the files having a specific extension
 
 To clean / delete the git repository: rm -rf .git

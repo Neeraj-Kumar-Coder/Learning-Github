@@ -1,0 +1,1 @@
+This is a test to know that whether git tracks the directories in its repository
