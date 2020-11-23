@@ -28,6 +28,6 @@ Note: The above command will ignore only the outer directory with this name
 
 To compare files between "working directory" and "Staging area": git diff
 
-To compare files between "working directory" and "previous commit": git diff --staged
+To compare files between "staging area" and "previous commit": git diff --staged
 
 To clean / delete the git repository: rm -rf .git
