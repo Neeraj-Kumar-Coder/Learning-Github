@@ -33,4 +33,9 @@ To compare files between "staging area" and "previous commit": git diff --staged
 To skip staging area and make a direct commit: git commit -a -m "<comment>"
 Note: This will not add the untracked file to the commit
 
+To remove or rename any file in the working directory using git;
+Note: We can do it in normal way but if we use git bash to do the same then git will automatically add the change to the staging area
+To remove: git rm <name.extension>
+To rename: git mv <oldname.extension> <newname.extension>
+
 To clean / delete the git repository: rm -rf .git
