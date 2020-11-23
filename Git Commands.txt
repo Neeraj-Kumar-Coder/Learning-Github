@@ -26,4 +26,8 @@ Note: The above command will ignore all the folders with the given name
 To ignore the content of the outer directory: add '/<directory_name>/' to the .gitignore file
 Note: The above command will ignore only the outer directory with this name
 
+To compare files between "working directory" and "Staging area": git diff
+
+To compare files between "working directory" and "previous commit": git diff --staged
+
 To clean / delete the git repository: rm -rf .git

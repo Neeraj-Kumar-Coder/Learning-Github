@@ -1,0 +1,2 @@
+This is a file to test staging area.
+Now this is the edited text after adding to the staging area.
