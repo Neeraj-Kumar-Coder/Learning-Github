@@ -38,4 +38,7 @@ Note: We can do it in normal way but if we use git bash to do the same then git 
 To remove: git rm <name.extension>
 To rename: git mv <oldname.extension> <newname.extension>
 
+To untrack a file from git: git rm --cached <name.extension>
+Note: Even if we add the name of the file in the .gitignore file then also we have to explicitly remove the file from tracking because we were tracking the file earlier and it is still in the tracking of the git
+
 To clean / delete the git repository: rm -rf .git
