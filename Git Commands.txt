@@ -31,5 +31,6 @@ To compare files between "working directory" and "Staging area": git diff
 To compare files between "staging area" and "previous commit": git diff --staged
 
 To skip staging area and make a direct commit: git commit -a -m "<comment>"
+Note: This will not add the untracked file to the commit
 
 To clean / delete the git repository: rm -rf .git
