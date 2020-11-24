@@ -43,6 +43,7 @@ To rename: git mv <oldname.extension> <newname.extension>
 To untrack a file from git: git rm --cached <name.extension>
 Note: Even if we add the name of the file in the .gitignore file then also we have to explicitly remove the file from tracking because we were tracking the file earlier and it is still in the tracking of the git
 
+<<<<<<< HEAD
 To see only the commits made: git log
 To see the changes made: git log -p
 To see specific number (n) of commits along with there diff: git log -p -n
@@ -59,4 +60,6 @@ Note: This will open the "vim" editor.
 To edit press 'i'
 To exit press 'Esc' then ':' then 'w' then 'q' the press enter
 
+=======
+>>>>>>> 4dfe0bab56699ced8bf43098ebe9edfc60876434
 To clean / delete the git repository: rm -rf .git
