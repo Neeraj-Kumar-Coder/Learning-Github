@@ -59,4 +59,8 @@ Note: This will open the "vim" editor.
 To edit press 'i'
 To exit press 'Esc' then ':' then 'w' then 'q' the press enter
 
+To unstage a file: git restore --staged <name.extension>
+To revert back a specific file to previous commit: git checkout -- <name.extension>
+To revert back all the files in the repository to the previous commit: git checkout -f
+
 To clean / delete the git repository: rm -rf .git
