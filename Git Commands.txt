@@ -1,3 +1,5 @@
+										GIT COMMANDS / NOTES
+
 To make the current directory a git repository: git init
 
 To check status: git status
