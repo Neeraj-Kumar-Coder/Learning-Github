@@ -63,4 +63,7 @@ To unstage a file: git restore --staged <name.extension>
 To revert back a specific file to previous commit: git checkout -- <name.extension>
 To revert back all the files in the repository to the previous commit: git checkout -f
 
+To create an Alias (a shortcut for a long command): git config --global alias.<shortcut> '<command>'
+E.G.: git config --global alias.unstage 'restore --staged --'
+(This is to unstage any staged file)
 To clean / delete the git repository: rm -rf .git
