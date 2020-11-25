@@ -66,4 +66,7 @@ To revert back all the files in the repository to the previous commit: git check
 To create an Alias (a shortcut for a long command): git config --global alias.<shortcut> '<command>'
 E.G.: git config --global alias.unstage 'restore --staged --'
 (This is to unstage any staged file)
+
+To create a new branch and switch to it: git checkout -b <new_branch_name>
+To switch to other branches: git checkout <branch_name>
 To clean / delete the git repository: rm -rf .git
