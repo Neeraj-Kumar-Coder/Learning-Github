@@ -4,6 +4,9 @@ To make the current directory a git repository: git init
 
 To check status: git status
 
+To change the working directory: cd "<path>"
+Example: cd "/c/Neeraj Kumar/Learning Git/First Git Repository/"
+
 To add all files to staging area: git add .
 or
 To add all files to staging area: git add --a
