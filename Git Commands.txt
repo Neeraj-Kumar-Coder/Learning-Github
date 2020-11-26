@@ -71,5 +71,10 @@ To create a new branch and switch to it: git checkout -b <new_branch_name>
 To switch to other branches: git checkout <branch_name>
 To merge any branch to the current branch: git merge <branch_name>
 To check all the branches: git branch
+To check last commit of all the branches: git branch -v
+To check the branches which are already merged: git branch --merged
+To check the branches that are not merged yet: git branch --no-merged
+To delete a branch: git branch -d <branch_name>
+Note: It will give an error message if the branch is not merged
 
 To clean / delete the git repository: rm -rf .git
