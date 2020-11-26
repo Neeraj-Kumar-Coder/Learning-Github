@@ -69,6 +69,7 @@ E.G.: git config --global alias.unstage 'restore --staged --'
 
 To create a new branch and switch to it: git checkout -b <new_branch_name>
 To switch to other branches: git checkout <branch_name>
+To merge any branch to the current branch: git merge <branch_name>
 To check all the branches: git branch
 
 To clean / delete the git repository: rm -rf .git
