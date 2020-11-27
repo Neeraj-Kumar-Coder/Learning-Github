@@ -83,5 +83,6 @@ Note: It will give an error message if the branch is not merged
 To push new branch to remote: git push -u <name_of_link> <name_of_branch>
 Note: You should be on that branch which you want to push
 To create a new branch in the remote: git push -u <name_of_link> <name_of_branch>:<renamed_branch_name>
+Note: It will not create a new branch in your local PC
 
 To clean / delete the git repository: rm -rf .git
