@@ -80,4 +80,8 @@ To check the branches that are not merged yet: git branch --no-merged
 To delete a branch: git branch -d <branch_name>
 Note: It will give an error message if the branch is not merged
 
+To push new branch to remote: git push -u <name_of_link> <name_of_branch>
+Note: You should be on that branch which you want to push
+To rename to branch in the remote: git push -u <name_of_link> <name_of_branch>:<renamed_branch_name>
+
 To clean / delete the git repository: rm -rf .git
