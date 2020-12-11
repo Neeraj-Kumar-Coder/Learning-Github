@@ -1,5 +1,7 @@
 										GIT COMMANDS / NOTES
 
+To update git: git update-git-for-windows
+
 To make the current directory a git repository: git init
 
 To check status: git status
